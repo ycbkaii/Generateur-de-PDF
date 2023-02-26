@@ -1,0 +1,24 @@
+Script Bash qui doit tourner dans un conteneur. : Guillaume 100%
+LISEZMOI_2.txt : Guillaume 100%
+
+
+un exemple de QRCode. : Yanis 50% et Jules 50%
+LISEZMOI_3.txt : Yanis 100%
+
+
+Script PHP permettant la fusion, qui est issu du modèle HTML. : Noah 50% et Yanis 50%
+LISEZMOI_4.txt : Noah 100%
+
+
+Script permettant de lancer le processus de génération du PDF, dans un conteneur sur base d’une image
+sae103-html2pdf : Jules 100%
+
+
+Script Bash permettant de lancer la chaîne de processus jusqu’à la production finale de l’archive de PDF. : Timothée 40% et Guillaume 60% 
+
+Une documentation sous forme d’un fichier LISEZMOI_FINAL.txt : Timothée 20% et Guillaume 20% et Yanis 20% et Noah 20% et Jules 20%
+
+
+Fichier TACHES_2.txt détaillant la liste des tâches réalisées en semaine 3 et la
+répartition du travail individuel (en %age) dans le groupe. : Timothée 100%
+

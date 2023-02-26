@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+ 
+ section {
+    position: relative;
+    height: 100vh;
+ }
+ 
+ .bottom {
+    position: absolute;
+    bottom: 0;
+    border: 1px dotted red;
+    min-height: 5rem;
+ }
+ section{
+    position: relative;
+    margin-left:2em ;
+    margin-right: 2em;
+    padding-left:2em ;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow-y: hidden;
+ }
+
+ footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+
+ #Page_de_couverture ul li{
+    margin-top: 20px;
+ }
+
+ #TexteIntro{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+ }
+
+ h1{
+    font-size: 2.8em;
+ }
+
+ li,p,td,th{
+    font-size: 1.2em;
+ }
+
+ li{
+    list-style: none;
+ }
+ 
+.time{
+    margin-top: 20px;
+}
+
+ /* @page { size: A4 } */
+ 
+ @media print {
+    section {
+       border: 1px solid black;
+       width: 8.26in;
+       height: 11.66in;
+       margin: 0;
+       /* change the margins as you want them to be. */
+       page-break-after: always;
+    }
+ }

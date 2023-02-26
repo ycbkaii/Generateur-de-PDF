@@ -1,0 +1,13 @@
+Documentation du script convertimage.sh
+
+Prérequis :
+ - Docker
+ - L'image sae103-imagick
+ - Bash
+ - le script convertimage.sh
+Tout d'abord plaçez le script dans un dossier et les image à convertir dans un sous dossier img/*.
+assurez-vous d'avoir les droits d'execution sur celui-ci (chmod +x convertimage.sh sinon) et lançez le script avec la commande.
+docker container run --rm -v "$PWD":/work sae103-imagick "./convertimage.sh"
+
+
+

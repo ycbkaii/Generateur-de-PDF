@@ -1,0 +1,13 @@
+Documentation du script Page.php 
+
+Prérequis :
+ - Docker
+ - L'image sae103-php
+ - Avoir executé script.php
+
+Plaçez le script dans le même dossier que script.php qui doit avoir été exécuté (Consultez LISEZMOI_1.txt pour plus d'informations sur l'exécution de script.php)
+Puis lançez la commande :
+
+docker container run --rm -v "$PWD":/work bigpapoo/sae103-php:latest php -f Page.php > <nomFicHTML>.html
+
+Le fichier HTML devrait être généré.

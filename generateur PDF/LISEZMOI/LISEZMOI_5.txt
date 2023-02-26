@@ -1,0 +1,9 @@
+Documentation du script html2pdf.sh
+
+Prérequis :
+ - Docker
+ - L'image sae103-html2pdf
+ - Bash
+Plaçez le script dans le même dossier que votre modèle HTML.
+Assurez-vous d'avoir les droits d'execution sur celui-ci (chmod +x html2pdf.sh sinon) et lançez le script.
+Le pdf correspondant à votre HTML porte le meme nom et ce trouve dans un dossier ./pdf/*. 

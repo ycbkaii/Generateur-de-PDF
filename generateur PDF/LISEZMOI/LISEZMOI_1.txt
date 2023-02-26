@@ -1,0 +1,17 @@
+﻿Prérequis :
+
+– Docker
+– L’image bigpapoo/sae103_php
+
+Tout d’abord, placez le script dans un dossier dont vous êtes propriétaire afin d’éviter tous problème de droit. Nous appellerons ce dossier « travail »
+On pourra aussi utiliser "$PWD" si on ne connais pas ce chemin.
+
+Il suffit ensuite d’effectuer la commande suivante :
+
+Veuillez à bien mettre le chemin absolu vers travail et non le chemin relatif.
+
+docker container run --rm -v "$PWD":/work bigpapoo/sae103-php:latest php -f nomdufichersource.extention
+
+Et voilà, les fichiers devraient être générés.
+
+

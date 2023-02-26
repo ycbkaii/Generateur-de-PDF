@@ -1,0 +1,17 @@
+Documentation final de notre SAE 1.03
+
+Prérequis :
+ - Docker
+ - L'image sae103-html2pdf,sae103-qrcode,sae103-imagick,sae103-php
+ - Bash
+
+Preparez un dossier contenant les fichiers texte source et les images source dans un sous-dossier ./img/* et les logo dans ./logo/*.
+Le nom des fichier texte source ne doivent pas contenir d'espace ou il sera impossible de générer un pdf correspondant
+Extrayez les fichier contenu dans SAE103.tar.gz dans ce dossier.
+Enfin assurez vous d'avoir les droits d'exécution sur les fichiers .sh (chmod +x *.sh sinon).
+lançez le script en lui passant en paramètre le chemin relatif vers les fichier texte.
+Par exemple :
+./PDFgen.sh . si ils sont dans le dossier courant.
+Les pdf son généré dans ./pdf/* puis ce dossier est archiver et compressé dans resultat.tar.gz 
+
+vous retrouverez la documentation individuelle des scripts dans ./LISEZMOI/*

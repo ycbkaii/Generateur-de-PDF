@@ -1,0 +1,14 @@
+Documentation du script qrcode.sh
+
+Prérequis :
+ - Docker
+ - L'image sae103-qrcode
+ - Bash
+
+Tout d'abord, plaçez le script dans le dossier où vous voulez générer le qrcode.
+Assurez-vous d'avoir les droits d'execution sur celui-ci (chmod +x qrcode.sh sinon) et lançez le script en lui passant en paramètre le code ISO 3166-2 de votre choix.
+Exemple :
+
+./qrcode.sh FR-BRE
+
+Le qrcode se nommera <code>.png, dans notre exemple c'est donc FR-BRE.png et se trouvera dans un sous dossier ./img/*

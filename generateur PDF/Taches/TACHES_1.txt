@@ -1,0 +1,16 @@
+● Création du fichier de configuration regions.conf = Timothée 100%
+
+● Traitement du fichier de données d’une région pour en extraire 3 fichiers nettoyés
+	○ le texte de la page 1 (texte.dat) Yanis 50% et Noah 50%
+	○ les données du tableau (tableau.dat)Yanis 50% et Noah 50%
+	○ les noms des meilleurs commerciaux (comm.dat) Guillaume 50% et Jules 50%
+
+Yanis Noah 60% Guillaume 40%
+
+● Dans un unique document HTML, les modèles de la page de couverture et des 3
+pages de détail, avec du contenu fictif et statique
+Guillaume 70% et Timothee 30%
+
+● Un fichier TACHES_1.txt détaillant la liste des tâches réalisées en semaines 1-2 et
+la répartition du travail individuel (en %age) dans le groupe
+Jules 100%
